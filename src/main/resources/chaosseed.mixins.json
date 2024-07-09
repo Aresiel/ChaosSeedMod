@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.aresiel.chaosseed.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BiomeManager",
+    "DirtyMarkingRandomSource",
+    "LegacyRandomSource",
+    "Mth",
+    "SingleThreadedRandomSource",
+    "ThreadSafeLegacyRandomSource",
+    "WorldgenRandom",
+    "WorldgenRegion",
+    "WorldOptions",
+    "XoroshiroRandomSource"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
